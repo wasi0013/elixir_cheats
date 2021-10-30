@@ -1,0 +1,9 @@
+# Elixir Cheatsheet
+
+## Hello World!
+
+The following code will print "Hello World!"
+
+```elixir
+IO.puts("Hello World!")
+```
