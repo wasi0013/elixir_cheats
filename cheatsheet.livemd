@@ -7,3 +7,18 @@ The following code will print "Hello World!"
 ```elixir
 IO.puts("Hello World!")
 ```
+
+## Variables
+
+Elixir allows you to assign to a variable more than once. If you want to match against the value of a previously assigned variable, you should use ^
+
+```elixir
+a = 12
+b = 13.0
+a + b
+```
+
+```elixir
+a = 12
+^a = 12
+```
